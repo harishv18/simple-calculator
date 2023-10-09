@@ -18,6 +18,45 @@ function result() {
   else if (op == '%') {
     var result = parseInt(num1) % parseInt(num2);
   }
+  else if(op == '>') {
+    var result = parseInt(num1) > parseInt(num2);
+  }
+  else if(op == '>=') {
+    var result = parseInt(num1) >= parseInt(num2);
+  }
+  else if(op == '<') {
+    var result = parseInt(num1) < parseInt(num2);
+  }
+  else if(op == '<=') {
+    var result = parseInt(num1) <= parseInt(num2);
+  }
+  else if(op == '!=') {
+    var result = parseInt(num1) != parseInt(num2);
+  }
+  else if(op == '==') {
+    var result = parseInt(num1) == parseInt(num2);
+  }
+  else if(op == '|') {
+    var result = parseInt(num1) | parseInt(num2);
+  }
+  else if(op == '&') {
+    var result = parseInt(num1) & parseInt(num2);
+  }
+  // else if(op == '~') {
+  //   var result = parseInt(num1) ~ parseInt(num2);
+  // }
+  else if(op == '^') {
+    var result = parseInt(num1) ^ parseInt(num2);
+  }
+  else if(op == '>>') {
+    var result = parseInt(num1) >> parseInt(num2);
+  }
+  else if(op == '>>>') {
+    var result = parseInt(num1) >>> parseInt(num2);
+  }
+  else if(op == '<<') {
+    var result = parseInt(num1) << parseInt(num2);
+  }
 
   document.getElementById('demo').innerHTML = result;
 }

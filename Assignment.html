@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Calculator</title>
+  <link rel="stylesheet" href="assests/css/Assignment.css">
+</head>
+
+<body>
+  <center>
+    <h1>Use switch key = add, sub, mul, div, rem a and b</h1>
+  </center>
+  <hr>
+  <label for="">Choose An Operation</label>
+  <select name="operators" id="operators">
+    <option value="Addition">Addition</option>
+    <option value="Subtraction">Subtraction</option>
+    <option value="Multiplication">Multiplication</option>
+    <option value="Divison">Divison</option>
+    <option value="Modulus">Modulus</option>
+  </select>
+  <br>
+  <label for="">Enter Input a?</label>
+  <input type="text" id="firstnum">
+  <br>
+  <label for="">Enter Input b?</label>
+  <input type="text" id="secondnum">
+  <br>
+  <button type="button" onClick="execute()">Execute Code</button>
+  <hr>
+  <h1 id="result"></h1>
+  <script src="assests/js/Assignment.js"></script>
+</body>
+
+</html>

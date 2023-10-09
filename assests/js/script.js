@@ -61,3 +61,9 @@ function result() {
   document.getElementById('demo').innerHTML = result;
 }
 
+function clearInputFields() {
+  document.getElementById("inputfield1").value = "";
+  document.getElementById("operator").value = "";
+  document.getElementById("inputfield2").value = "";
+  document.getElementById("demo").innerHTML = "";
+}

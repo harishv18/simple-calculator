@@ -33,3 +33,9 @@
   position: relative;
   left: 40%;
 }
+.container button + button {
+  width: 100px;
+  height: 40px;
+  position: relative;
+  left: 59%;
+}
